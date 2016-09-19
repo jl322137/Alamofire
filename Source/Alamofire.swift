@@ -419,7 +419,7 @@ public func upload(
     )
 }
 
-#if !os(watchOS)
+#if false
 
 // MARK: - Stream Request
 
