@@ -22,7 +22,7 @@
 //  THE SOFTWARE.
 //
 
-#if false
+#if !os(watchOS)
 
 import Foundation
 import SystemConfiguration

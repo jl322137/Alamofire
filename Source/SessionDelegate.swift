@@ -374,7 +374,7 @@ extension SessionDelegate: URLSessionTaskDelegate {
         }
     }
 
-#if false
+#if !os(watchOS)
 
     /// Tells the delegate that the session finished collecting metrics for the task.
     ///
